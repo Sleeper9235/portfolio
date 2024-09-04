@@ -4,97 +4,217 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/javascript.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <section class="navBar">
-        <div class="center--nav">
-            <div class="container">
-                <nav class="nav">
-                    <ul class="nav--list">
-                        <li class="item"><a href="" class="item--wrapper" data-item="home">Home</a></li>
-                        <li class="item"><a href="" class="item--wrapper" data-item="about">About Me</a></li>
-                        <li class="item"><a href="" class="item--wrapper" data-item="skills">Skills</a></li>
-                        <li class="item"><a href="" class="item--wrapper" data-item="projects">Projects</a></li>
-                        <li class="item"><a href="" class="item--wrapper" data-item="contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </section>
+    <nav class="navbar" >
+        <ul class="nav--list" >
+            <li class="nav--item"><a href="#home" class="nav--item-wrapper" data-item="home">Home</a></li>
+            <li class="nav--item"><a href="#about" class="nav--item-wrapper" data-item="about">About Me</a></li>
+            <li class="nav--item"><a href="#skills" class="nav--item-wrapper" data-item="skills">Skills</a></li>
+            <li class="nav--item"><a href="#projects" class="nav--item-wrapper" data-item="projects">Projects</a></li>
+            <li class="nav--item"><a href="#contact" class="nav--item-wrapper" data-item="contact">Contact</a></li>
+        </ul>
+    </nav>
     <section class="main">
         <div class="center">
-            <div class="home-section">
+            <div class="home-section" id="home">
                 <div class="image-container">
                     <img />
                 </div>
             </div>
-            <div class="about-section">
-                <div class="image-container-circle">
-                    <img />
-                </div>
-                <div class="about-container">
-                    <h1>Kyle Youmans</h1>
-                </div>
-            </div>
-            <div class="skills-container">
-                <div class="front-end">
-                    <h1>Front End</h1>
-                    <ul class="skill--list">
-                        <li class="skill--item">HTML</li>
-                        <li class="skill--item">CSS</li>
-                        <li class="skill--item">JavaScript</li>
-                        <li class="skill--item">React</li>
-                        <li class="skill--item">SASS</li>
-                    </ul>
-                </div>
-                <div class="back-end">
-                    <h1>Back End</h1>
-                    <ul class="skill--list">
-                        <li class="skill--item">Node.js</li>
-                        <li class="skill--item">Express</li>
-                        <li class="skill--item">MongoDB </li>
-                        <li class="skill--item">Mongoose </li>
-                        <li class="skill--item">Python </li>
-                        <li class="skill--item">Django  </li>
-                        <li class="skill--item">SQL  </li>
-                        <li class="skill--item">PostgreSQL </li>
-                        <li class="skill--item">PostgreSQL </li>
-                    </ul>
-                </div>
-                <div class="and-more">
-                    <h1>And More</h1>
-                    <ul class="skill--list">
-                        <li class="skill--item">Ubuntu</li>
-                        <li class="skill--item">Git </li>
-                        <li class="skill--item">GitHub </li>
-                        <li class="skill--item">Visual Studio Code</li>
-                    </ul>
+            <div class="about-section" id="about">
+                <div class="about--wrapper">
+                    <div class="image-container-circle">
+                        <img />
+                    </div>
+                    <div class="about-container">
+                        <h1>Kyle Youmans</h1>
+                    </div>
                 </div>
             </div>
-            <div class="projects-container">
-                <h1>Projects</h1>
-                <ul class="profects--list">
-                    <li class="projects--item"></li>
-                </ul>
+            <div class="skills-container" id="skills">
+                <div class="skills--wrapper">
+                    <div class="front-end">
+                        <h1>Front End</h1>
+                        <ul class="skill--list">
+                            <li class="skill--item">HTML 💾</li>
+                            <li class="skill--item">CSS 💾</li>
+                            <li class="skill--item">JavaScript 💾</li>
+                            <li class="skill--item">React 💾</li>
+                            <li class="skill--item">SASS 💾</li>
+                        </ul>
+                    </div>
+                    <div class="back-end">
+                        <h1>Back End</h1>
+                        <ul class="skill--list">
+                            <li class="skill--item">Node.js 💾</li>
+                            <li class="skill--item">Express 💾</li>
+                            <li class="skill--item">MongoDB 💾</li>
+                            <li class="skill--item">Mongoose 💾</li>
+                            <li class="skill--item">Python 💾</li>
+                            <li class="skill--item">Django  💾</li>
+                            <li class="skill--item">SQL  💾</li>
+                            <li class="skill--item">PostgreSQL 💾</li>
+                            <li class="skill--item">GDScript 💾</li>
+                        </ul>
+                    </div>
+                    <div class="and-more">
+                        <h1>And More</h1>
+                        <ul class="skill--list">
+                            <li class="skill--item">Ubuntu 💾</li>
+                            <li class="skill--item">Git 💾</li>
+                            <li class="skill--item">GitHub 💾</li>
+                            <li class="skill--item">Visual Studio Code 💾</li>
+                            <li class="skill--item">Godot 💾</li>
+                            <li class="skill--item">Logic 💾</li>
+                            <li class="skill--item">ProTools 💾</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="contact-container">
-                <h1>Contact Me</h1>
-                <form>
 
-                </form>
+
+
+
+            <div class="projects-container" id="projects">
+                <h1 style="margin-top: 4%;">Projects</h1>
+                
+                <div class="projects--wrapper">
+                    <ul class="projects--list">
+
+                        <li class="projects--item">
+                            <div class="project--item-container">
+                                <img class="image" src="https://github.com/Sleeper9235/unison-concentration-game/raw/main/assets/photos/shotOfBoard.png" />
+                                <div class ="middle">
+                                    <div class="popup-container">
+                                        <div class="description" style="top: 275px;">
+                                            <p class="show">Unison is a tonal, or sound, matching game. It forces the player to not look for matches but listen for the matches.</p>
+                                        </div>
+                                        <div class="icon-container" style="top: 275px;">
+                                            <div class="hidden-circle">
+                                                <a href="https://sleeper9235.github.io/unison-concentration-game/">
+                                                    <img class="hidden-icon" src="assets/Link/link.png" alt="LinkedIn icon"/>
+                                                </a>
+                                            </div>
+                                            <div class="hidden-circle">
+                                                <a href="https://github.com/Sleeper9235/game-progress-tracker">
+                                                    <img class="hidden-icon" src="assets/github-mark/github-mark-white.png" alt="Github icon" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="projects--item">
+                            <div class="project--item-container">
+                                <img class="image" src="https://github.com/Sleeper9235/game-progress-tracker/raw/main/assets/game_title.png" />
+                                <div class ="middle">
+                                    <div class="popup-container">
+                                        <div class="description"  style="top: 250px;">
+                                            <p class="show">Gamoury is a game collection database. Which utilizes an ever growing collectin of games for the user to add or remove from their inventory.</p>
+                                        </div>
+                                        <div class="icon-container" style="top: 250px;">
+                                            <div class="hidden-circle">
+                                                <a href="https://game-tracker-347ade7f3e94.herokuapp.com/">
+                                                    <img class="hidden-icon" src="assets/Link/link.png" alt="LinkedIn icon"/>
+                                                </a>
+                                            </div>
+                                            <div class="hidden-circle">
+                                                <a href="https://github.com/Sleeper9235/game-progress-tracker">
+                                                    <img class="hidden-icon" src="assets/github-mark/github-mark-white.png" alt="Github icon" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="projects--item">
+                            <div class="project--item-container">
+                                <img class="image" src="https://github.com/Sleeper9235/gardeners-guide-react/raw/main/public/assets/app_screenshot.png" />
+                                <div class ="middle">
+                                    <div class="popup-container">
+                                        <div class="description" style="top: 250px;">
+                                            <p class="show">Gardener's guide is an app for plant minded people to keep track of all the plants they have, whether inside, outside, in their garden, or on their shelves.</p>
+                                        </div>
+                                        <div class="icon-container" style="top: 250px;">
+                                            <div class="hidden-circle" >
+                                                <a href="https://gardeners-guide.netlify.app/">
+                                                    <img class="hidden-icon" src="assets/Link/link.png" alt="LinkedIn icon"/>
+                                                </a>
+                                            </div>
+                                            <div class="hidden-circle">
+                                                <a href="https://github.com/Sleeper9235/gardeners-guide-react">
+                                                    <img class="hidden-icon" src="assets/github-mark/github-mark-white.png" alt="Github icon" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="projects--item">
+                            <div class="project--item-container">
+                                <img class="image" src="https://github.com/Sleeper9235/fur-friend/raw/main/media/media/app_photo.png" />
+                                <div class ="middle">
+                                    <div class="popup-container">
+                                        <div class="description" style="top: 207px;">
+                                            <p class="show">Fur friends is an app that helps with the perilous search for that perfect companion. Fur friends is a place for Rescues, Shelters, and Fosters to display their loved ones in hopes for the perfect match.</p>
+                                        </div>
+                                        <div class="icon-container" style="top: 250px;">
+                                            <div class="hidden-circle">
+                                                <a href="https://fur-friend-app-7f1a72d680b7.herokuapp.com/">
+                                                    <img class="hidden-icon" src="assets/Link/link.png" alt="LinkedIn icon"/>
+                                                </a>
+                                            </div>
+                                            <div class="hidden-circle">
+                                                <a href="https://github.com/Sleeper9235/fur-friend">
+                                                    <img class="hidden-icon" src="assets/github-mark/github-mark-white.png" alt="Github icon" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-container" id="contact">
+                <div class="contact--wrapper">
+                    <h1>Let's Keep In Touch</h1>
+                    <p class="contact--text">Whether a new idea or help with an old, I'm here to colborate. <br />Super intreseted in meeting like minded people! So don't hesitate to reach out!</p>
+                    <div class="contact--circle-container">
+                        <div class="circle">
+                            <a href="mailto:kylejyoumans@gmail.com ">
+                                <img class="icon" src="assets/Email/email_white.png" alt="email icon" />
+                            </a>
+                        </div>
+                        <div class="circle">
+                            <a href="https://www.linkedin.com/in/kyle-youmans-developer">
+                                <img class="icon" src="assets/LinkedIn-Logos/icons8-linkedin-50.png" alt="LinkedIn icon"/>
+                            </a>
+                        </div>
+                        <div class="circle">
+                            <a href="https://www.github.com/Sleeper9235">
+                                <img class="icon" src="assets/github-mark/github-mark-white.png" alt="Github icon" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>          
         </div>
     </section>
-    <section class ="footer">
-        <footer class="footer">
-            <ul class="footer--list">
-                <li class="foot-item"><a href="" class="foot-item--wrapper" data-item="Email"></a></li>
-                <li class="foot-item"><a href="" class="foot-item--wrapper" data-item="Github"></a></li>
-                <li class="foot-item"><a href="" class="foot-item--wrapper" data-item="LinkedIn"></a></li>
-                <li class="foot-item"><a href="" class="foot-item--wrapper" data-item="Resume"></a></li>
-            </ul>
-        </footer> 
-    </section>
+    <!-- <footer class="footer">
+        <ul class="footer--list">
+            <li class="foot-item"><a href="" class="foot-item--wrapper" data-item="Email"></a></li>
+            <li class="foot-item"><a href="" class="foot-item--wrapper" data-item="Github"></a></li>
+            <li class="foot-item"><a href="" class="foot-item--wrapper" data-item="LinkedIn"></a></li>
+            <li class="foot-item"><a href="" class="foot-item--wrapper" data-item="Resume"></a></li>
+        </ul>
+    </footer>  -->
 </body>
 </html>
