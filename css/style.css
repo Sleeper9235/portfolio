@@ -223,9 +223,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
   }
   
+  .skill-title{
+    margin-bottom: 50px;
+  }
+
+  .skill--sub-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
   .skill--list{
     display: flex;
     flex-direction: row;
